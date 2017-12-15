@@ -1,11 +1,13 @@
 
+{% assign about = site.pages | where: 'permalink', '/sobre/' | first %}
+
 <div class="wrapper">
 
-    <h2>'bout me:</h2>
-    <p>My name is João Ferreira (maybe John). I live in Santos, Brasil. 
-        I'm a developer since 2006 and still trying.</p>
+    <h2>{{ about.title }}</h2>
+    {{ about.excerpt }}
     <p data-grid="center">
-        <a href="http://johnylab.net" data-btn data-cell="shrink fill">Tell me about you</a>
+        <a href="{{ site.baseurl }}{{ about.url }}" data-cell="shrink fill">Saiba mais...</a>
+        <a href="#contato" data-btn data-cell="shrink fill">Contato</a>
     </p>
 
 </div>
