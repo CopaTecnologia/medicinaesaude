@@ -1,3 +1,3 @@
-# johnyplate
+# medicinaesaude
 
-My preety awesome Jekyll-Babel-Boilerplate ;)
+Modelo de blog sobre medicina e saúde.
