@@ -1,0 +1,19 @@
+---
+layout: default
+sections:
+- name: hero
+  classes: hero
+- name: features
+- name: about
+  classes: hero light
+---
+
+{% for section in page.sections %}
+
+<section class="page-content section-{{ section.name }} {{ section.classes }}" id="{{ section.name }}">
+
+    {% include sections/{{ section.name }}.html %}
+
+</section>
+
+{% endfor %}

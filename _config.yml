@@ -1,0 +1,35 @@
+---
+title: Blog Medicina e Saúde
+timezone: America/Sao_Paulo
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    cover_image: 
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+    cover_image: 
+description: O seu local para aprender sobre a sua saúde.
+baseurl: ""
+url: http://copatecnologia.com.br
+markdown: kramdown
+sass:
+  style: compressed
+exclude:
+- node_modules
+- desktop.ini
+- gulpfile.js
+- npm-debug.log
+- package.json

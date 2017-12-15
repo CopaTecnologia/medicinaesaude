@@ -1,0 +1,36 @@
+{
+  "name": "medicinaesaude",
+  "version": "1.0.0",
+  "description": "Blog de medicina e saúde",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CopaTecnologia/medicinaesaude.git"
+  },
+  "keywords": [
+    "blog",
+    "template",
+    "medicina",
+    "saúde"
+  ],
+  "author": "Copa Tecnologia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CopaTecnologia/medicinaesaude.git"
+  },
+  "homepage": "http://copatecnologia.com.br/medicinaesaude",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.18.13",
+    "child_process": "^1.0.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-cli": "^1.4.0",
+    "gulp-rollup": "^2.15.0",
+    "gulp-sourcemaps": "^2.6.1"
+  }
+}

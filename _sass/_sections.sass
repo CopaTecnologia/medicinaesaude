@@ -1,0 +1,26 @@
+%section-spacing
+    padding-top: $spacing-unit * 2
+    padding-bottom: $spacing-unit * 2
+
+.section-
+
+    &hero
+        padding-top: 120px
+        padding-bottom: 120px
+        background:
+            image: url('https://images.unsplash.com/photo-1504813184591-01572f98c85f?auto=format&fit=crop&w=1051&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D')
+            size: cover
+    &features
+        article
+            text-align: center
+            +media-greater($on-palm)
+                max-width: 16em
+        svg
+            max-width: 80%
+            +media-query($on-palm)
+                max-width: 60%
+    &about
+        @extend %section-spacing
+        line-height: 1.6
+        p
+            letter-spacing: 1px
