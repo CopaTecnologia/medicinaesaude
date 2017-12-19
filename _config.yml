@@ -22,7 +22,7 @@ defaults:
     layout: page
     cover_image: 
 description: O seu local para aprender sobre a sua saúde.
-baseurl: '/medicinaesaude'
+baseurl: "/medicinaesaude"
 url: http://copatecnologia.com.br
 markdown: kramdown
 sass:
