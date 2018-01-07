@@ -1,5 +1,5 @@
 
-<div class="slideshow">
+<div class="slideshow" data-interval="5000">
 
     {% for slide in site.slides %}
 
@@ -14,7 +14,7 @@
         "
         {% endcapture %}
 
-        <div class="slide {{ slide.classes }}" data-grid="center">
+        <div class="slide {{ slide.classes }} idle" data-grid="center">
 
             <div class="slide-image" {{ style }}></div>
 
