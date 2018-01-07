@@ -25,7 +25,7 @@ description: O seu local para aprender sobre a sua saúde.
 slides:
 - image:
   excerpt:
-baseurl: ''
+baseurl: "/medicinaesaude"
 url: http://copatecnologia.com.br
 markdown: kramdown
 sass:
