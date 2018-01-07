@@ -22,6 +22,9 @@ defaults:
     layout: page
     cover_image: 
 description: O seu local para aprender sobre a sua saúde.
+slides:
+- image:
+  excerpt:
 baseurl: ''
 url: http://copatecnologia.com.br
 markdown: kramdown
