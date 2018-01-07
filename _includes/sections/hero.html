@@ -1,12 +1,21 @@
 
-<div class="wrapper large" data-grid="center spacing">
+<div class="wrapper large slideshow">
 
-    <div data-cell="2of3 fill"></div>
+    {% for slide in site.slides %}
 
-    <div data-cell="1of3">
-        <h2 class="page-title">Here is Johnnie!</h2>
-        <p>This is my empty project for new websites... maybe apps too. 
-        Just everything I need to bootstrap a project.</p>
-    </div>
+        <div class="slide">
+
+            <div class="slide-image"><img src="{{ site.baseurl }}{{ slide.image }}" alt="{{ slide.title }}"></div>
+
+            <div data-cell="2of3 fill"></div>
+    
+            <div data-cell="1of3">
+                <h2 class="page-title">{{ slide.title }}</h2>
+                {{ slide.content }}
+            </div>
+
+        </div>
+
+    {% endfor %}
 
 </div>

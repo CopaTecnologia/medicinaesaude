@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  slides:
+    title: Slides
+    output: false
 defaults:
 - scope:
     path: ''
@@ -21,10 +24,12 @@ defaults:
   values:
     layout: page
     cover_image: 
+- scope:
+    path: ''
+    type: slides
+  values:
+    image: 
 description: O seu local para aprender sobre a sua saúde.
-slides:
-- image: 
-  excerpt: 
 baseurl: "/medicinaesaude"
 url: http://copatecnologia.com.br
 markdown: kramdown
