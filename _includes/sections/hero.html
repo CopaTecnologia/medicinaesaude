@@ -18,7 +18,7 @@
 
             <div class="slide-image" {{ style }}></div>
 
-            {% if slide.text-position == null || slide.text-position == 'right' %}
+            {% if slide.text-position == 'right' %}
             <div data-cell="2of3 fill"></div>
             {% endif %}
             
@@ -27,7 +27,11 @@
                 {{ slide.content }}
             </div>
 
-            {% if slide.text-position && slide.text-position != 'right' %}
+            {% if slide.text-position == null %}
+            <div data-cell="2of3 fill"></div>
+            {% endif %}
+
+            {% if slide.text-position == 'left' %}
             <div data-cell="2of3 fill"></div>
             {% endif %}
 
