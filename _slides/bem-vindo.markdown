@@ -7,4 +7,4 @@ classes: dark
 text-position: right
 ---
 
-Seja ben-vindo à nossa clínica. Conheça melhor os <a href="#" data-text="nowrap">nossos serviços</a> ou <a href="#" data-text="nowrap">agende uma visita</a>.
+Seja bem-vindo à nossa clínica. Conheça melhor os <a href="#" data-text="nowrap">nossas especialidades</a> ou <a href="#" data-text="nowrap">agende uma consulta</a>.
