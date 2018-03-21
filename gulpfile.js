@@ -27,7 +27,10 @@ gulp.task('bundle', function() {
     gulp.src('./_scripts/**/*.js')
         .pipe(sourcemaps.init())
         .pipe(rollup({
-            input: './_scripts/main.js',
+            input: [
+                './_scripts/main.js',
+                './_scripts/search.js'
+            ],
             format: 'iife'
         }))
         .on('error', console.log)
@@ -39,7 +42,7 @@ gulp.task('bundle', function() {
         ;
   });
 
-gulp.task('jekyll-rebuild', ['bundle', 'jekyll-build'], function () {
+gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
     browserSync.reload();
 });
 
@@ -60,9 +63,11 @@ gulp.task('watch', function () {
         '_slides/*', 
         '_sass/**/*', 
         'css/**/*', 
-        '_scripts/**/*', 
         'js/**/*'
     ], ['jekyll-rebuild']);
+    gulp.watch([
+        '_scripts/**/*'
+    ], ['bundle']);
 });
 
 gulp.task('default', ['browser-sync', 'watch']);
