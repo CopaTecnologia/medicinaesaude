@@ -1,5 +1,6 @@
 ---
 title: Post de exemplo
+date: 2018-03-21 00:00:00 -03:00
 ---
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro explicabo suscipit necessitatibus? Optio fuga saepe libero doloribus reiciendis illum perspiciatis quasi consectetur. 
