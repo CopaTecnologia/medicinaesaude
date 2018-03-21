@@ -8,18 +8,17 @@ layout: page
 <section class="page-content">
 
   <div class="wrapper">
-    {{ site.posts }}
-    <ul class="post-list" data-grid="cols-2 spacing">
+    <ul class="seamless post-list">
       {% for post in paginator.posts %}
 
-        <li data-cell>
+        <li>
           <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h2>
           <small class="post-meta">{{ post.date | date: "%-d/%m/%Y" }}</small>
           {% if post.excerpt %}
             <p>
-              {{ post.excerpt | prepend: site.baseurl | strip_html | strip_newlines | truncatewords: 25, '...' }}
+              {{ post.excerpt | strip_html | strip_newlines | truncatewords: 25, '...' }}
               <small><a href="{{ post.url | prepend: site.baseurl }}">Continue lendo...</a></small>
             </p>
           {% endif %}

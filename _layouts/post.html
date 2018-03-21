@@ -15,21 +15,21 @@ layout: default
 
   <div class="hero light" data-grid="around spacing">
 
-    {% if page.next %}
-      <div class="wrapper small" data-text="right">
+    <div class="wrapper small" data-cell="1of2" data-text="right">
+      {% if page.next %}
         <p><small>Mais recente</small></p>
         <h4><a href="{{ page.next.url }}">{{ page.next.title }}</a></h4>
         <p><small>{{ page.next.excerpt | strip_html | strip_newlines | truncatewords: 25, '...' }}</small></p>
-      </div>
-    {% endif %}
+      {% endif %}
+    </div>
   
-    {% if page.previous %}
-      <div class="wrapper small" data-text="left">
+    <div class="wrapper small" data-cell="1of2" data-text="left">
+      {% if page.previous %}
         <p><small>Anterior</small></p>
         <h4><a href="{{ page.previous.url }}">{{ page.previous.title }}</a></h4>
         <p><small>{{ page.previous.excerpt | strip_html | strip_newlines | truncatewords: 25, '...' }}</small></p>
-      </div>
-    {% endif %}
+      {% endif %}
+    </div>
   
     </div>
 

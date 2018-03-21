@@ -3,15 +3,15 @@
 
 <aside class="page-content sidebar">
 
-    <div class="wrapper" data-grid="spacing">
+    <div class="wrapper">
 
-        <section data-cell="1of2">
+        <section>
             <h2>{{ search.title }}</h2>
             {% include search-form.html %}
             <p><small>{{ search.excerpt }}</small></p>
         </section>
 
-        <section data-cell="2of3">
+        <section>
             <h2>Categorias</h2>
             <nav data-grid="row wrap justify">
                 {% for c in site.categorias %}

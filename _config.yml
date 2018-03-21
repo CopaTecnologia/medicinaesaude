@@ -5,6 +5,7 @@ collections:
   posts:
     title: Posts
     output: true
+    permalink: /blog/:year/:month/:day/:title/
   slides:
     title: Slides
     output: false
@@ -32,10 +33,11 @@ defaults:
 description: Há 10 anos cuidado de você e sua família.
 baseurl: "/medicinaesaude"
 url: http://copatecnologia.com.br
+permalink: /:pretty/
 markdown: kramdown
 plugins:
 - jekyll-paginate
-paginate: 2
+paginate: 8
 paginate_path: "/blog/:num/"
 sass:
   style: compressed
