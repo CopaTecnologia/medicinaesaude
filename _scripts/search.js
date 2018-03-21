@@ -19,11 +19,11 @@ function displaySearchResults(results, store) {
                 ${img}
                 <div data-cell="2of3">
                     <h4>
-                        <a href="{{ site.baseurl }}${item.url}" class="post-title">${item.title}</a>
+                        <a href="${window.baseurl}${item.url}" class="post-title">${item.title}</a>
                     </h4>
                     <p>
                         ${item.content.substring(0, 150)}... 
-                        <a href="{{ site.baseurl }}${item.url}" data-cell="shrink">Saiba mais</a>
+                        <a href="${window.baseurl}${item.url}" data-cell="shrink">Saiba mais</a>
                     </p>
                 </div>
             </div>

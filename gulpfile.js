@@ -62,6 +62,8 @@ gulp.task('watch', function () {
         '_includes/**/*', 
         '_slides/*', 
         '_sass/**/*', 
+        '_posts/**/*', 
+        'blog/*', 
         'css/**/*', 
         'js/**/*'
     ], ['jekyll-rebuild']);
