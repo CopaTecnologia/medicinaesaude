@@ -1,5 +1,5 @@
 
-{% assign about = site.pages | where: 'permalink', '/sobre/' | first %}
+{% assign about = site.pages | where: 'is_about', true | first %}
 
 <div class="wrapper">
 

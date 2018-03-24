@@ -6,6 +6,7 @@ excerpt: Há mais de 10 anos no mercado, a Clínica de Medicina e Saúde atende 
   de 1000 pacientes por mês, combinando tradição com modernidade no seu atendimento.
 nav-title: Quem somos
 nav-order: 5
+is_about: true
 ---
 
 Há mais de 10 anos no mercado, a Clínica de Medicina e Saúde atende mais de 1000 pacientes por mês, combinando tradição com modernidade no seu atendimento.

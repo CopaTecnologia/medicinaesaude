@@ -2,7 +2,9 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/favicon.png" height="44" alt="{{ site.title }}"></a>
+    <a class="site-title" href="{{ site.baseurl }}/">
+      {% include svg/favicon.svg %}
+    </a>
 
     <nav class="site-nav">
 
@@ -15,9 +17,10 @@
       </a>
 
       <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.nav-title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.nav-title }}</a>
+        {% assign page_links = site.pages | sort: 'nav-order' %}
+        {% for page_link in page_links %}
+          {% if page_link.nav-title %}
+          <a class="page-link" href="{{ page_link.url | prepend: site.baseurl }}">{{ page_link.nav-title }}</a>
           {% endif %}
         {% endfor %}
         <a class="page-link" href="{{ site.baseurl }}/blog/">Blog</a>
