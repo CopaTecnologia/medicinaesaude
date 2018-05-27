@@ -1,13 +1,10 @@
 ---
 title: Exames e diagnósticos
 date: 2018-03-24 16:10:00 -03:00
+cover_image: "/uploads/ken-treloar-385255.jpg"
 nav-title: Exames
 nav-order: 2
 ---
-
-<div class="page-content hero dark" style="background:url('https://images.unsplash.com/photo-1521014317666-56e42abbff00?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c661075f8f859e25fe149fe4799af709&auto=format&fit=crop&w=1534&q=80') 0 60% no-repeat; background-size: cover; padding-top: calc(20% + 100px); font-size: x-large; font-weight: bold; line-height: 1.1; text-shadow: -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 1px 1px 0 #000;">
-    <p class="wrapper">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe reprehenderit quia tenetur possimus magnam quos neque, cumque exercitationem adipisci officiis cupiditate porro eum, commodi odio nisi, accusamus facere? Neque, possimus.</p>
-</div>
 
 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet dolor nihil magnam est? Porro nam inventore, corrupti dolore eveniet illo, magni rerum eaque vero a autem provident, quam delectus doloribus?
 Amet nulla perspiciatis repudiandae assumenda ea! Dolores repellendus qui officiis mollitia ipsam distinctio quas? Impedit necessitatibus dicta sint corrupti, deleniti, perspiciatis voluptas nisi hic voluptatem, ipsa autem. Voluptatem, inventore perferendis.
