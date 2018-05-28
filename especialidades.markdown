@@ -1,6 +1,7 @@
 ---
 title: Especialidades
 date: 2018-03-24 16:07:00 -03:00
+cover_image: "/uploads/stethoscope-1584222_1920.jpg"
 nav-title: Especialidades
 nav-order: 1
 ---
