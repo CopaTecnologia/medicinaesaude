@@ -13,6 +13,12 @@ Há mais de 10 anos no mercado, a Clínica de Medicina e Saúde atende mais de 1
 
 Encontre a lista de **especialidades** médicas assim como de **exames e diagnósticos** compreendidos na Clínica de Medicina e Saúde. Além disso, **busque seu convênio** ou agende uma consulta entrando em contato conosco **por aqui**.
 
+--
+
 **CORPO CLÍNICO**
 
-/uploads/doctor-1149149_1280.jpg
+![doctor-1149149_1280.jpg](/uploads/doctor-1149149_1280.jpg)
+
+![nurse-2019420_1280.jpg](/uploads/nurse-2019420_1280.jpg)
+
+![dentist-1191671_1280.jpg](/uploads/dentist-1191671_1280.jpg)
