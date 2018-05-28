@@ -18,7 +18,7 @@ Encontre a lista de **especialidades** médicas assim como de **exames e diagnó
 **CORPO CLÍNICO**
 
 
-img src="/uploads/doctor-1149149_1280.jpg"
+![doctor-1149149_1280.jpg](/uploads/doctor-1149149_1280.jpg)
 
 ![nurse-2019420_1280.jpg](/uploads/nurse-2019420_1280.jpg)
 
