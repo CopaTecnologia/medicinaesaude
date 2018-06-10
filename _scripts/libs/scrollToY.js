@@ -1,13 +1,6 @@
-window.requestAnimFrame = (function(){
-  return  window.requestAnimationFrame       ||
-          window.webkitRequestAnimationFrame ||
-          window.mozRequestAnimationFrame    ||
-          function( callback ){
-            window.setTimeout(callback, 1000 / 60);
-          };
-})();
+import {requestAnimFrame} from '../libs/util';
 
-function scrollToY(scrollTargetY, speed, easing, fn) {
+export default function scrollToY(scrollTargetY, speed, easing, fn) {
     // scrollTargetY: the target scrollY property of the window
     // speed: time in pixels per second
     // easing: easing equation to use
@@ -46,10 +39,9 @@ function scrollToY(scrollTargetY, speed, easing, fn) {
 
         if (p < 1) {
             requestAnimFrame(tick);
-
             window.scrollTo(0, scrollY + ((scrollTargetY - scrollY) * t));
         } else {
-            fn();
+            fn instanceof Function && fn();
             window.scrollTo(0, scrollTargetY);
         }
     }

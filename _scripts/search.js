@@ -1,10 +1,9 @@
-const $ = (selector) => document.querySelectorAll(selector);
 Element.prototype.prependChild = function (child) {
     this.insertBefore(child, this.firstChild);
 };
 
 function displaySearchResults(results, store) {
-    const searchResults = $('#search-results')[0];
+    const searchResults = document.querySelector('#search-results');
     if (!results.length) {
         const message = document.createElement('p');
         message.innerHTML = 'Nenhum resultado encontrado para <strong>' + searchTerm + '</strong>.';
