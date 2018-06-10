@@ -4,7 +4,6 @@ date: 2018-03-24 16:07:00 -03:00
 position: 0
 cover_image: "/uploads/stethoscope-1584222_1920.jpg"
 nav-title: Especialidades
-nav-order: 1
 ---
 
 Nihil dolorem quam assumenda deleniti exercitationem sit optio ad dolor voluptatibus! Porro corrupti cumque distinctio molestiae vero ut voluptatibus doloremque? Molestias minima aliquid obcaecati nihil cum laudantium incidunt eius deserunt!

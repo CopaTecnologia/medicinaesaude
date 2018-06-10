@@ -4,7 +4,6 @@ date: 2018-03-24 16:10:00 -03:00
 position: 1
 cover_image: "/uploads/mri-2813899_1920.jpg"
 nav-title: Exames
-nav-order: 2
 ---
 
 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet dolor nihil magnam est? Porro nam inventore, corrupti dolore eveniet illo, magni rerum eaque vero a autem provident, quam delectus doloribus?

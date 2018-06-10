@@ -4,7 +4,6 @@ date: 2018-03-24 16:10:00 -03:00
 position: 2
 cover_image: "/uploads/connect-2777610.png"
 nav-title: Convênios
-nav-order: 4
 ---
 
 ## Convênio 1

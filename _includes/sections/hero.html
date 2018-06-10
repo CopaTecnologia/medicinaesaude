@@ -1,7 +1,8 @@
+{% assign slides = site.slides | sort: 'position' %}
 
 <div class="slideshow" data-interval="5000">
 
-    {% for slide in site.slides %}
+    {% for slide in slides %}
 
         {% capture style %}
         style="
