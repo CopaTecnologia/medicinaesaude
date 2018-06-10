@@ -8,9 +8,6 @@ collections:
   posts:
     title: Posts
     output: true
-  pages:
-    title: Páginas
-    output: true
   slides:
     title: Slides
     output: false
