@@ -47,3 +47,4 @@ exclude:
 - gulpfile.js
 - npm-debug.log
 - package.json
+- README.md

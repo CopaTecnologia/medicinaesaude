@@ -24,6 +24,12 @@ gulp.task('jekyll-build', function (done) {
 });
 
 gulp.task('bundle', function() {
+    bundle(function() {
+        browserSync.reload();
+    });
+});
+
+function bundle(done) {
     gulp.src('./_scripts/**/*.js')
         .pipe(sourcemaps.init())
         .pipe(rollup({
@@ -35,18 +41,20 @@ gulp.task('bundle', function() {
         }))
         .on('error', console.log)
         .pipe(babel({
-            "presets": ["es2015"]
+            "presets": ["es2015", "minify"]
         }))
-        .pipe(sourcemaps.write())
         .pipe(gulp.dest('./js'))
+        .pipe(sourcemaps.write())
+        .pipe(gulp.dest('./_site/js'))
+        .on('end', done || function() {})
         ;
-  });
+};
 
 gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
     browserSync.reload();
 });
 
-gulp.task('browser-sync', ['bundle', 'jekyll-build'], function() {
+gulp.task('browser-sync', ['jekyll-build'], function() {
     browserSync({
         server: {
             baseDir: '_site',
@@ -64,8 +72,7 @@ gulp.task('watch', function () {
         '_sass/**/*', 
         '_posts/**/*', 
         'blog/*', 
-        'css/**/*', 
-        'js/**/*'
+        'css/**/*'
     ], ['jekyll-rebuild']);
     gulp.watch([
         '_scripts/**/*'
