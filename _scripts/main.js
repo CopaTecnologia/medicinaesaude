@@ -1,17 +1,37 @@
 import SlideShow from './libs/slideshow';
 
-const sliders = document.querySelectorAll('.slideshow');
+document.body.addEventListener('touchstart', () => {});
 
-Array.prototype.forEach.call(sliders, slider => {
-    const start = slider.getAttribute('data-start') || 0;
-    const interval = slider.getAttribute('data-interval') || 3000;
-    const slideshow = new SlideShow({
-        parent: slider,
-        children: '.slide',
-        start,
-        interval
-    });
-    slideshow.play();
-    slider.addEventListener('mouseover', function() {slideshow.pause()});
-    slider.addEventListener('mouseout', function() {slideshow.play()});
-});
+const parallaxContainer = document.querySelector('.parallax-container');
+if (parallaxContainer) {
+    const siteHeader = document.querySelector('.site-header');
+    const parallaxContent = parallaxContainer.querySelector('.parallax-content');
+    const maxScrollOffset = parallaxContainer.offsetTop + parallaxContainer.offsetHeight;
+
+    if (parallaxContent) {
+        window.addEventListener('gesturechange', handleScroll, {passive: true});
+        window.addEventListener('touchmove', handleScroll, {passive: true});
+        window.addEventListener('scroll', handleScroll);
+    }
+
+    function handleScroll() {
+        if (scrollY > maxScrollOffset) return false;
+        parallaxContent.style.transform = `translateY(${scrollY * .5}px)`;
+        siteHeader.style.transform = `translateY(${scrollY * .75}px)`;
+    };
+};
+
+Array.prototype.forEach.call(
+    document.querySelectorAll('.slideshow'),
+    parent => {
+        const slideshow = new SlideShow({
+            parent,
+            children: '.slide',
+            start: parent.getAttribute('data-start') || 0,
+            interval: parent.getAttribute('data-interval') || 3000
+        });
+        slideshow.play();
+        parent.addEventListener('mouseover', () => slideshow.pause());
+        parent.addEventListener('mouseout', () => slideshow.play());
+    }
+);
