@@ -2,17 +2,17 @@
 title: Clínica Medicina e Saúde
 timezone: America/Sao_Paulo
 collections:
-  pages:
-    title: Páginas
-    output: true
+  destaques:
+    title: Destaques
+    output: false
   posts:
     title: Posts
     output: true
+  pages:
+    title: Páginas
+    output: true
   slides:
     title: Slides
-    output: false
-  destaques:
-    title: Destaques
     output: false
   uploads:
     title: Uploads
