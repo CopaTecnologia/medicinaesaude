@@ -5,6 +5,8 @@ date: 2018-03-21 00:00:00 -03:00
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro explicabo suscipit necessitatibus? Optio fuga saepe libero doloribus reiciendis illum perspiciatis quasi consectetur. 
 
+![stethoscope-1584222_1920.jpg](/uploads/stethoscope-1584222_1920.jpg)
+
 Debitis non, sed distinctio accusamus dicta molestias corrupti.
 
 Dicta cupiditate neque deleniti a similique expedita sequi ab sunt, molestias, corrupti itaque iste at vel excepturi distinctio, ratione magnam amet facere?
