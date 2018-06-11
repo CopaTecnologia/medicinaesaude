@@ -49,8 +49,8 @@ exclude:
 - package.json
 - README.md
 long-title: Clínica Medicina e Saúde
-endereço: Praça da Independência, 530 - Conj. 78/79
-localidade: CEP 11030-000 | Santos - SP | Brasil
+endereço: Praça da Independência, 11
+localidade: Gonzaga | CEP 11060-100 | Santos - SP | Brasil
 telefones:
 - numero: "+551332890001"
   rotulo: "+55 (13) 3289-0001"
