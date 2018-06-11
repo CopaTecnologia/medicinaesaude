@@ -17,6 +17,7 @@
       </a>
 
       <div class="trigger">
+        <a class="page-link" href="{{ site.baseurl }}/">Home</a>
         {% assign page_links = site.pages | sort: 'position' %}
         {% for page_link in page_links %}
           {% if page_link.nav-title %}
