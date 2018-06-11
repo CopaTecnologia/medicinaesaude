@@ -2,9 +2,58 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+    <div data-grid="">
 
-    <p>{{ site.description }}</p>
+      <div data-cell="">
+    
+        <h2 class="footer-heading">{{ site.long-title }}</h2>
+    
+        <p>{{ site.description }}</p>
+
+        <p>
+          {% for line in site.endereco %}
+            <br> {{ line }}
+          {% endfor %}
+        </p>
+
+        {% if site.email %}
+        <p>
+          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        </p>
+        {% endif %}
+
+      </div>
+
+      <div data-cell="shrink">
+
+        <ul class="seamless">
+          <li>
+            <a class="page-link" href="{{ site.baseurl }}/">Home</a>
+          </li>
+          {% assign page_links = site.pages | sort: 'position' %}
+          {% for page_link in page_links %}
+            {% if page_link.nav-title %}
+            <li>
+              <a class="page-link" href="{{ page_link.url | prepend: site.baseurl }}">{{ page_link.nav-title }}</a>
+            </li>
+            {% endif %}
+          {% endfor %}
+          <li>
+            <a class="page-link" href="{{ site.baseurl }}/blog/">Blog</a>
+          </li>
+        </ul>
+        
+        <ul class="seamless">
+          {% for tel in site.telefones %}
+            <li>
+              <a href="tel:{{ tel.numero }}">{{ tel.rotulo }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+
+      </div>
+
+    </div>
 
   </div>
 
