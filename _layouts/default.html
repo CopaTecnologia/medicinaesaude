@@ -21,20 +21,6 @@ layout: compress
 
     {% assign base = site.baseurl | strip %}
 
-    {% if base != '' %}
-    <script>
-      (function(i,m,g) {
-        Array.prototype.forEach.call(i, function(j) {j[m] = g;
-        })
-      })(document.querySelectorAll('img'), 'onerror', function(e) {
-        this.src = this.getAttribute('src').replace(
-            /^\/uploads\//,
-            '{{ site.baseurl }}/uploads/'
-          );
-      })
-    </script>
-    {% endif %}
-
   </body>
 
 </html>
