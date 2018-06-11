@@ -5,6 +5,9 @@ collections:
   posts:
     title: Posts
     output: true
+  profissionais:
+    title: Profissionais
+    output: true
   slides:
     title: Slides
     output: false
