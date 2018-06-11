@@ -1,7 +1,7 @@
 ---
 title: Exames e diagnósticos
 date: 2018-03-24 16:10:00 -03:00
-position: 1
+position: 2
 cover_image: "/uploads/mri-2813899_1920.jpg"
 nav-title: Exames
 ---
