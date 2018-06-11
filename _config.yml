@@ -2,11 +2,11 @@
 title: Clínica Medicina e Saúde
 timezone: America/Sao_Paulo
 collections:
+  profissionais:
+    title: Pessoas
+    output: false
   posts:
     title: Posts
-    output: true
-  profissionais:
-    title: Profissionais
     output: true
   slides:
     title: Slides
