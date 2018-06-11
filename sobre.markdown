@@ -15,10 +15,6 @@ Encontre a lista de **especialidades** médicas assim como de **exames e diagnó
 
 ---
 
-**CORPO CLÍNICO**
+## CORPO CLÍNICO
 
-![doctor-1149149_1280.jpg](/uploads/doctor-1149149_1280.jpg)
-
-![nurse-2019420_1280.jpg](/uploads/nurse-2019420_1280.jpg)
-
-![dentist-1191671_1280.jpg](/uploads/dentist-1191671_1280.jpg)
+{% include profissionais.html %}

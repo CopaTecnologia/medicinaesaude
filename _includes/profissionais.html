@@ -1,0 +1,19 @@
+
+{% assign profissionais = site.profissionais | sort: 'position' %}
+
+{% for p in profissionais %}
+  
+  <div class="page-content wrapper" data-grid="spacing">
+  
+    <div data-cell="1of2 fill">
+      <img src="{{ site.baseurl }}{{ p.image }}" alt="{{ p.title }}">
+    </div>
+  
+    <div data-cell="1of2">
+      <h4>{{ p.title }}</h4>
+      {{ p.content }}
+    </div>
+  
+  </div>
+  
+{% endfor %}

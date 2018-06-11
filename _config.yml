@@ -3,7 +3,7 @@ title: Clínica Medicina e Saúde
 timezone: America/Sao_Paulo
 collections:
   profissionais:
-    title: Pessoas
+    title: Profissionais
     output: false
   posts:
     title: Posts
@@ -28,6 +28,11 @@ defaults:
   values:
     layout: page
     cover_image: 
+- scope:
+    path: ''
+    type: profissionais
+  values:
+    image: 
 - scope:
     path: ''
     type: slides
