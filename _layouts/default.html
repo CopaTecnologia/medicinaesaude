@@ -19,6 +19,18 @@ layout: compress
 
     <script src="{{ site.baseurl }}/js/main.js"></script>
 
+    {% assign base = site.baseurl | strip %}
+
+    {% if base != '' %}
+    <script>
+      (function(i,m,g) {
+        Array.prototype.forEach.call(i, function(g) {g.onerror = m})
+      })(document.querySelectorAll('img'), function(e) {
+        console.log(e, this);
+      })
+    </script>
+    {% endif %}
+
   </body>
 
 </html>
