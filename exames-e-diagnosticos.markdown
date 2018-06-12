@@ -28,3 +28,23 @@ Ele pode ser usado para detectar e acompanhar arritmia cardíaca, bradicardia, d
 Alguns sintomas, como falta de ar, tontura, desmaio e batimentos cardíacos irregulares, são sinais que podem fazer com que o médico solicite um eletrocardiograma. Ou para pessoas que sofrem de diabetes, tabagismo, histórico familiar de doença cardíaca precoce e colesterol alto.
 
 Na Clínica Medicina e Saúde, você encontra preços acessíveis para realizar o exame.
+
+---
+
+### Holter
+
+O Holter é um exame complementar do eletrocardiograma que registra a atividade elétrica do coração e variações durante 24 horas por dia.
+
+Ele é um mini-gravador digital do tamanho de um cartão de crédito, que registra as atividades elétricas. O paciente pode realizar todas as atividades normalmente, menos tomar banho.
+
+Geralmente, o holter é usado para identificar alterações nos batimentos cardíacos, nas síncopes ou outras alterações paroxísticas, que podem não ser detectadas em examesmais curtos, como o eletrocardiograma.
+
+Outro objetivo do holter é monitorar o coração depois de um infarto do miocárdio ou de uma cirurgia cardíaca, por exemplo.
+
+Não há qualquer risco com exame. Alguns pacientes podem ser sensíveis aos adesivos dos eletrodos, mas as reações costumam ser brandas.
+
+Os resultados serão lidos pelo médico após este período de 24 horas de registros.
+
+---
+
+Faça seu agendamento. Mais informações pelo telefone (13) 3289-0001, WhatsApp (13) 99289-0001.
