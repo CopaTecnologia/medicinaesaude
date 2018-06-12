@@ -1,20 +1,16 @@
 ---
-title: Post de exemplo
+title: Você sabe o que é "Coração de Atleta"?
 date: 2018-03-21 00:00:00 -03:00
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro explicabo suscipit necessitatibus? Optio fuga saepe libero doloribus reiciendis illum perspiciatis quasi consectetur.
+O termo “coração de atleta” surgiu em 1896, após a primeira Olimpíada da Era moderna, onde os atletas de ski cross-country foram analisados e submetidos a algumas avaliações médicas para verificar desempenho do coração e do sistema circulatório.
 
-Debitis non, sed distinctio accusamus dicta molestias corrupti.
+A equipe médica sueca observou que o coração destes atletas eram maiores que o considerado normal e passaram a considerar coração atleta aquele que possui o tamanho da espessura de suas paredes e das suas cavidades até 45% maior do que o uma pessoa que não faz atividade física e que os batimentos cardíacos em repouso chegam a atingir 30 batimentos por minuto.
 
-Dicta cupiditate neque deleniti a similique expedita sequi ab sunt, molestias, corrupti itaque iste at vel excepturi distinctio, ratione magnam amet facere?
+Estes achados podem ser resultado do treinamento, mas também podem ser devido a doenças cardíacas prévias ao início do exercício. Esta, inclusive, era a maior questão em dúvida após o estudo, se o esporte fazia o coração crescer, ou se era um coração com anomalias, que cresceram no atleta.
 
-Atque aperiam dolor officiis optio eveniet asperiores ullam exercitationem aut earum eum, ab necessitatibus ratione quas. Maxime qui ullam cum laborum in.
+Esta diferenciação entre resposta normal ao exercício físico e doença prévia pode confundir os médicos generalistas. Um cardiologista poderá investigar os achados e separar possíveis portadores de doença prévia.
 
-Ipsa perferendis amet dignissimos nobis voluptatem possimus libero! Totam, error neque. Sunt temporibus provident explicabo dolor qui velit, sit, deserunt deleniti consectetur quo voluptatem in sint enim, placeat commodi earum.
+Caso o esportista possuir o “coração de atleta”, ele sofreu algumas adaptações fisiológicas em seu coração, devido aos esforços na atividade física, o que não significa que ele possui problemas cardíacos.
 
-Veritatis amet a consequuntur laborum consectetur vel illo odio, repellendus temporibus quis. Tempore laboriosam esse dolor temporibus ipsum impedit explicabo debitis, tempora dicta, tenetur, voluptates cum deleniti neque possimus rem.
-
-Iure corrupti autem architecto modi, libero et inventore nam dolorum excepturi molestiae ipsa suscipit! Nulla nihil dolor recusandae magni maiores, suscipit a laborum blanditiis eaque minima repellat, totam omnis corrupti?
-
-Officiis quos minima cum culpa quidem dolorum delectus laboriosam non sint laborum omnis veritatis ipsam, animi qui vel aut ipsa perspiciatis quasi ab illo. Excepturi amet eos repudiandae ea cumque.
+Mesmo assim, é indispensável o acompanhamento de um cardiologista e avaliações periódicas para acompanhar o desempenho do coração e a evolução das alterações. Além disso ele irá orientar o atleta sobre a melhor rotina para seus esportes.
