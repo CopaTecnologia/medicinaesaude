@@ -12,12 +12,10 @@ Aliquam obcaecati id possimus quam aliquid itaque atque adipisci dolores porro o
 ---
 
 
-
 ![PORTOSEGURO.png](/uploads/PORTOSEGURO.png)
 Quibusdam illo, minima dolor nam tempore culpa officiis ullam vel ex modi laborum ipsa saepe eos minus. Commodi repellendus quasi exercitationem, dignissimos id, provident natus in modi reprehenderit repellat nulla.
 
 ---
-
 
 
 ![BRADESCO.png](/uploads/BRADESCO.png)
