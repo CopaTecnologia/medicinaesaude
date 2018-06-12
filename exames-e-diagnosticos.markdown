@@ -6,19 +6,25 @@ cover_image: "/uploads/mri-2813899_1920.jpg"
 nav-title: Exames
 ---
 
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet dolor nihil magnam est? Porro nam inventore, corrupti dolore eveniet illo, magni rerum eaque vero a autem provident, quam delectus doloribus?
-Amet nulla perspiciatis repudiandae assumenda ea! Dolores repellendus qui officiis mollitia ipsam distinctio quas? Impedit necessitatibus dicta sint corrupti, deleniti, perspiciatis voluptas nisi hic voluptatem, ipsa autem. Voluptatem, inventore perferendis.
+A Clínica Medicina e Saúde mais possui uma excelente infraestrutura para oferecer exames de imagem com excelente qualidade e confiabilidade. Tudo isso acessível a um preço justo.
 
-Tempora quod sequi similique quisquam voluptas molestias ipsam consequuntur, doloribus rerum suscipit cum quaerat fugit minima nostrum et obcaecati perspiciatis nisi rem beatae velit itaque consectetur? Necessitatibus odio voluptates et?
-Sit cumque voluptates dolor distinctio! Porro ipsum laboriosam magni natus recusandae eos dolorem quidem illo consequatur quos eum impedit, dicta repellat numquam praesentium vero temporibus! A ipsum qui magni animi.
-Sint, odit eius reiciendis, nobis magni adipisci quo, qui ipsum aut ullam doloribus tenetur. Itaque distinctio maxime explicabo magni aliquam fugit architecto hic nulla necessitatibus. Velit aut exercitationem consequatur inventore?
-In dolorum quas, alias veritatis hic quos perspiciatis corrupti itaque ipsa? Hic velit nulla amet! Officiis eum saepe corrupti ea a ab quia, cupiditate quibusdam nemo expedita culpa eveniet magnam?
+---
 
-Ex laborum tempora quis quod odit neque iste eligendi exercitationem debitis voluptatum dolore deleniti nisi amet quisquam, minus libero, corporis optio animi sint assumenda! Iure doloremque sunt excepturi ducimus eaque.
-Libero natus sed nihil? Non, architecto illo. Voluptatem ipsam quos necessitatibus voluptate repellat voluptates distinctio quo qui reprehenderit eveniet, dolores commodi sequi fugit! Odit sit nemo neque expedita a amet!
-Expedita dolor, ipsum atque, odit dolore officiis blanditiis earum quibusdam repellendus tempora officia maxime quaerat autem quod ipsa molestias facere. Cum sit laborum sint vero, unde libero eveniet optio provident.
+### Densitometria Óssea
 
-Dolorem quam consequuntur molestias, molestiae sit at aperiam voluptatibus quasi nostrum animi consectetur inventore amet, explicabo optio! Ratione, unde reprehenderit dolorem possimus libero ab placeat atque, a assumenda quisquam rerum?
-Hic fugiat rem veniam harum nostrum? Corporis quod harum tenetur minus molestiae magni debitis laborum, consequuntur eaque illum repellendus, saepe corrupti? Tempora aliquid perspiciatis ea quis nemo commodi praesentium dolorum?
+A Densitometria Óssea é um exame de imagem capaz de identificar a osteoporose, doença que afeta, principalmente, os idosos. Ele, ainda, avalia a densidade mineral dos ossos, além, de verificar a coluna lombar, a região proximal do fêmur e o terço distal do rádio, áreas que estão mais sujeitas a fraturas.
+Uma das vantagens deste método é que o paciente é submetido a baixa exposição à radiação, cerca de dez vezes menor que a exposição gerada por uma radiografia normal de torax. Os resultados também costumam ser mais rápidos – o exame pode durar apenas 5 minutos. Agende o seu exame na Clínica Medicina e Saúde!
 
-Reprehenderit molestias accusantium quis vero impedit. Asperiores corrupti ipsa quasi numquam, cupiditate quam, eum quo nihil ipsum corporis dolor similique ipsam sequi beatae cum totam ex. Maiores animi provident eaque?
+---
+
+### Eletrocardiograma
+
+O eletrocardiograma é um dos exames mais importantes para a cardiologia. Ele é capaz de diagnosticar desde condições normais de nascença à problemas mais graves, como infartos, crescimento de cavidades e disritmias. É um procedimento simples, rápido e indolor, no qual os impulsos do coração são amplificados e registrados em um pedaço de papel.
+
+O equipamento gera gráficos, que são comparados a um gráfico padrão, para verificar normalidade ou alguma alteração dos músculos ou nervos do coração.
+
+Ele pode ser usado para detectar e acompanhar arritmia cardíaca, bradicardia, defeitos cardíacos, problemas com válvula do coração, artérias bloqueadas ou estreitas do coração, artérias bloqueadas, infartos, doenças genéticas, doenças transmissíveis (chagas), doenças que isolam o coração, entre outros.
+
+Alguns sintomas, como falta de ar, tontura, desmaio e batimentos cardíacos irregulares, são sinais que podem fazer com que o médico solicite um eletrocardiograma. Ou para pessoas que sofrem de diabetes, tabagismo, histórico familiar de doença cardíaca precoce e colesterol alto.
+
+Na Clínica Medicina e Saúde, você encontra preços acessíveis para realizar o exame.
