@@ -12,6 +12,8 @@ Estes achados podem ser resultado do treinamento, mas também podem ser devido a
 
 Esta diferenciação entre resposta normal ao exercício físico e doença prévia pode confundir os médicos generalistas. Um cardiologista poderá investigar os achados e separar possíveis portadores de doença prévia.
 
+![insuficiencia-cardiaca-1.jpg](/uploads/insuficiencia-cardiaca-1.jpg)
+
 Caso o esportista possuir o “coração de atleta”, ele sofreu algumas adaptações fisiológicas em seu coração, devido aos esforços na atividade física, o que não significa que ele possui problemas cardíacos.
 
 Mesmo assim, é indispensável o acompanhamento de um cardiologista e avaliações periódicas para acompanhar o desempenho do coração e a evolução das alterações. Além disso ele irá orientar o atleta sobre a melhor rotina para seus esportes.
