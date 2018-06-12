@@ -1,12 +1,10 @@
 ---
 title: Você sabe o que é "Coração de Atleta"?
 date: 2018-03-21 00:00:00 -03:00
-cover_image: "/uploads/businessman-3213659_1920.jpg"
+cover_image: "/uploads/healthy-heart.jpg"
 ---
 
 O termo “coração de atleta” surgiu em 1896, após a primeira Olimpíada da Era moderna, onde os atletas de ski cross-country foram analisados e submetidos a algumas avaliações médicas para verificar desempenho do coração e do sistema circulatório.
-
-![healthy-heart.jpg](/uploads/healthy-heart.jpg)
 
 A equipe médica sueca observou que o coração destes atletas eram maiores que o considerado normal e passaram a considerar coração atleta aquele que possui o tamanho da espessura de suas paredes e das suas cavidades até 45% maior do que o uma pessoa que não faz atividade física e que os batimentos cardíacos em repouso chegam a atingir 30 batimentos por minuto.
 
