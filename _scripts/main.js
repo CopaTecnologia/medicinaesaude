@@ -1,4 +1,5 @@
 import SlideShow from './libs/slideshow';
+import {requestAnimFrame} from './libs/util';
 
 document.body.addEventListener('touchstart', () => {});
 
@@ -16,8 +17,12 @@ if (parallaxContainer) {
 
     function handleScroll() {
         if (scrollY > maxScrollOffset) return false;
-        parallaxContent.style.transform = `translateY(${scrollY * .5}px)`;
-        siteHeader.style.transform = `translateY(${scrollY * .75}px)`;
+        requestAnimFrame(() => {
+            parallaxContent.style.webkitTransform = `translateY(${scrollY * .5}px)`;
+            parallaxContent.style.transform = `translateY(${scrollY * .5}px)`;
+            siteHeader.style.webkitTransform = `translateY(${scrollY * .75}px)`;
+            siteHeader.style.transform = `translateY(${scrollY * .75}px)`;
+        });
     };
 };
 
