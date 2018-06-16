@@ -5,15 +5,17 @@ Element.prototype.prependChild = function (child) {
 function displaySearchResults(results, store) {
     const searchResults = document.querySelector('#search-results');
     if (!results.length) {
-        const message = document.createElement('p');
-        message.innerHTML = 'Nenhum resultado encontrado para <strong>' + searchTerm + '</strong>.';
-        searchResults.prependChild(message);
-        return false;
+        return searchResults.innerHTML = `
+        <p>Nenhum resultado encontrado para 
+            <strong>${searchTerm}</strong>.
+        </p>
+        `;
     }
     const resultsArr = results.map((result) => {
         const item = store[result.ref];
         const img = item.img ? '<div data-cell="1of4">' + item.img + '</div>' : '';
-        return `<article class="card">
+        return `
+        <article class="card">
             <div data-grid="center spacing">
                 ${img}
                 <div data-cell="2of3">
@@ -26,7 +28,8 @@ function displaySearchResults(results, store) {
                     </p>
                 </div>
             </div>
-        </article>`;
+        </article>
+        `;
     });
     searchResults.innerHTML = `
         <p>Resultados para <strong>${searchTerm}</strong></p>
