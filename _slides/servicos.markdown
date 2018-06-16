@@ -6,4 +6,4 @@ image: "/uploads/ken-treloar-385255.jpg"
 classes: dark
 ---
 
-[Saiba mais](#)
+[Saiba mais]({{ site.baseurl }}/sobre)
