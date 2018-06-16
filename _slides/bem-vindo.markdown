@@ -9,5 +9,5 @@ text-position: right
 ---
 
 Seja bem-vindo à nossa clínica. Conheça melhor as
- <a href="#" data-text="nowrap">nossas especialidades</a> ou
- <a href="#" data-text="nowrap">agende uma consulta</a>.
+<a href="{{ site.baseurl }}/especialidades" data-text="nowrap">nossas especialidades</a> ou
+<a href="#contato" data-text="nowrap">agende uma consulta</a>.
