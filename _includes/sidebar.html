@@ -11,6 +11,7 @@
             <p><small>{{ search.excerpt }}</small></p>
         </section>
 
+        {% if site.categorias %}
         <section>
             <h2>Categorias</h2>
             <nav data-grid="row wrap justify">
@@ -19,6 +20,7 @@
                 {% endfor %}
             </nav>
         </section>
+        {% endif %}
 
     </div>
 
