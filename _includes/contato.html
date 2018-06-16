@@ -1,24 +1,31 @@
 
-<form action="http://server.clinicafabricioafonso.com.br/enviar_email.php" method="post" data-cell="2of3" id="contato">
-    <h3>Fale conosco</h3>
-    <p>
-        <label for="nome">Nome</label>
-        <input type="text" name="nome" required="" placeholder="Informe o seu nome">
-    </p>
-    <p>
-        <label for="email">E-mail</label>
-        <input type="email" name="email" required="" placeholder="nome@dominio.com.br">
-    </p>
-    <p>
-        <label for="mensagem">Mensagem</label>
-        <textarea name="mensagem" cols="30" rows="5" placeholder="Digite a sua mensagem..."></textarea>
-    </p>
-    <p class="honeypot">
-        <label for="honeypot">Se estiver vendo isto, deixe este campo vazio:</label>
-        <input type="text" name="honeypot">
-    </p>
-    <p data-grid="center justify spacing">
-        <button data-cell="shrink">Enviar</button>
-        <a href="#topo" data-cell="shrink">Voltar ao topo</a>
-    </p>
-</form>
+<div data-modal="" data-grid="row center" id="contato">
+    <form action="http://server.{{ site.url }}/enviar_email.php" method="post" class="wrapper">
+        <a href="#X" data-btn="link close">&times;</a>
+        <header>
+            <h3>Fale conosco</h3>
+        </header>
+        <p>
+            <label for="nome">Nome <small>(OBRIGATÓRIO)</small></label>
+            <input type="text" name="nome" required="" placeholder="Informe o seu nome">
+        </p>
+        <p>
+            <label for="email">E-mail <small>(OBRIGATÓRIO)</small></label>
+            <input type="email" name="email" required="" placeholder="nome@dominio.com.br">
+        </p>
+        <p>
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" cols="30" rows="5" placeholder="Digite a sua mensagem..."></textarea>
+        </p>
+        <p class="honeypot">
+            <label for="honeypot">Se estiver vendo isto, deixe este campo vazio:</label>
+            <input type="text" name="honeypot">
+        </p>
+        <footer>
+            <p data-grid="row center justify spacing">
+                <a href="#X" data-cell="shrink">Fechar</a>
+                <button data-cell="shrink">Enviar</button>
+            </p>
+        </footer>
+    </form>
+</div>

@@ -64,5 +64,14 @@ endereco:
 telefones:
 - numero: "+551332890001"
   rotulo: "(13) 3289-0001"
-  icone: telefone
 email: atendimento@clinicamedicinaesaude.com.br
+social:
+- label: Facebook
+  link: http://facebook.com/medicinaesaude
+  icone: facebook
+- label: Linkedin
+  link: http://linkedin.com/medicinaesaude
+  icone: linkedin
+- label: Twitter
+  link: http://twitter.com/medicinaesaude
+  icone: twitter
