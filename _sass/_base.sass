@@ -93,6 +93,8 @@ a
   &:hover, &:focus, &:active
     color: $text-color
     text-decoration: underline
+  &[href^="mailto:"]
+    word-wrap: break-word
 
 abbr[title]
   border-bottom: none // normalize.css Chrome 57-, FF 39-
