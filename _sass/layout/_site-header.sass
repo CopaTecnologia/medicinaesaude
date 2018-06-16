@@ -23,25 +23,30 @@
     .menu-icon 
         display: none
 
-    .page-link 
+    .page-link
+        display: inline-block
         color: $text-color
-        line-height: $base-line-height
-        margin-left: 20px
+        padding-left: 10px
+        padding-right: 10px
+        &:hover, &:focus, &:active
+            text-decoration: none
+            background-color: $grey-color-light
 
     @include media-query($on-laptop) 
         position: absolute
         top: 9px
         right: $spacing-unit / 2
+        text-align: right
         background-color: $background-color
         border-radius: 5px
-        text-align: right
+        overflow: hidden
         .menu-icon
             display: block
             float: right
             width: 36px
             height: 36px
             line-height: 0
-            padding-top: 10px
+            padding-top: 12px
             text-align: center
             >svg
                 width: 18px
@@ -55,9 +60,10 @@
 
         &:hover .trigger 
             display: block
-            padding-bottom: 5px
+            padding-top: 11px
+            box-shadow: -5px 5px 15px -5px rgba(black, .1)
 
         .page-link
             display: block
-            padding: 5px 10px
-            margin-left: 20px
+            margin: 0
+            padding: 0 $spacing-unit
