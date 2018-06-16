@@ -6,6 +6,11 @@
 
     &hero
         padding: 0
+        .shim
+            +media-query($on-palm)
+                display: none
+        .slide-content
+            max-width: 30em
     &features
         article
             text-align: center

@@ -20,20 +20,20 @@
             <div class="slide-image" {{ style }}></div>
 
             {% if slide.text-position == 'right' %}
-            <div data-cell="2of3 fill"></div>
+            <div data-cell="2of3 fill" class="shim"></div>
             {% endif %}
             
-            <div class="slide-content" data-cell="1of3 fill">
+            <div class="slide-content" data-cell="shrink fill"
+            {% if slide.text-position == 'right' %}
+                data-text="right"
+            {% endif %}
+            >
                 <h2 class="page-title">{{ slide.title }}</h2>
                 {{ slide.content }}
             </div>
 
-            {% if slide.text-position == null %}
-            <div data-cell="2of3 fill"></div>
-            {% endif %}
-
             {% if slide.text-position == 'left' %}
-            <div data-cell="2of3 fill"></div>
+            <div data-cell="2of3 fill" class="shim"></div>
             {% endif %}
 
         </div>
