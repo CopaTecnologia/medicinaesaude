@@ -27,6 +27,7 @@ defaults:
     type: pages
   values:
     layout: page
+    icon_image: 
     cover_image: 
 - scope:
     path: ''
