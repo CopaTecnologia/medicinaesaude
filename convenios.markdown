@@ -3,6 +3,7 @@ title: Convênios
 date: 2018-03-24 16:10:00 -03:00
 position: 3
 icon_image: "/uploads/hand-shake.svg"
+title_color: "#7ac143"
 cover_image: "/uploads/connect-2777610.png"
 nav-title: Convênios
 ---
