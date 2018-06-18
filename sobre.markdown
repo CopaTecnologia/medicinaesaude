@@ -3,7 +3,7 @@ title: Quem somos
 date: 2017-12-20 09:05:00 -02:00
 position: 0
 icon_image: "/uploads/doctor.svg"
-title_color: "#00a8d4"
+title_color: "#7ac143"
 cover_image: "/uploads/stethoscope-2617701_1920.jpg"
 excerpt: Há mais de 10 anos no mercado, a Clínica de Medicina e Saúde atende mais
   de 1000 pacientes por mês, combinando tradição com modernidade no seu atendimento.
