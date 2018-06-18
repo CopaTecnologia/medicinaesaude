@@ -28,6 +28,7 @@ defaults:
   values:
     layout: page
     icon_image: 
+    title_color: 
     cover_image: 
 - scope:
     path: ''

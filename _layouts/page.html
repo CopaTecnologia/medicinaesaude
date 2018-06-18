@@ -15,7 +15,11 @@ layout: default
         </div>
       {% endif %}
 
-      <h1 class="post-title">{{ page.title }}</h1>
+      <h1 class="post-title" style="
+      {% if page.title_color %}
+        color: page.title_color
+      {% endif %}
+      ">{{ page.title }}</h1>
     </div>
   </header>
 
