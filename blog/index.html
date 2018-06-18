@@ -3,51 +3,72 @@ title: Blog
 layout: page
 ---
 
-<div class="wrapper">{% include search-form.html %}</div>
-
 <section class="page-content">
 
+  <header class="post-header wrapper">
+    <div data-grid="center spacing">
+  
+      {% if site.blog.icon_image %}
+        <div data-cell="shrink">
+          <img src="{{ site.baseurl }}{{ site.blog.icon_image }}" alt="ícone do blog" width="100" height="100">
+        </div>
+      {% endif %}
+  
+      <h1 class="post-title" style="
+      {% if site.blog.title_color %}
+        color: site.blog.title_color
+      {% endif %}
+      ">{{ page.title }}</h1>
+    </div>
+  </header>
+  
+  <div class="wrapper">{% include search-form.html %}</div>
+  
+  <section class="page-content">
+  
+    <div class="wrapper">
+      <ul class="seamless post-list">
+        {% for post in paginator.posts %}
+  
+          <li>
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+            <small class="post-meta">{{ post.date | date: "%-d/%m/%Y" }}</small>
+            {% if post.excerpt %}
+              <p>
+                {{ post.excerpt | strip_html | strip_newlines | truncatewords: 25, '...' }}
+                <small><a href="{{ post.url | prepend: site.baseurl }}">Continue lendo...</a></small>
+              </p>
+            {% endif %}
+          </li>
+  
+        {% endfor %}
+      </ul>
+  
+    </div>
+  </section>
+    
   <div class="wrapper">
-    <ul class="seamless post-list">
-      {% for post in paginator.posts %}
-
-        <li>
-          <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h2>
-          <small class="post-meta">{{ post.date | date: "%-d/%m/%Y" }}</small>
-          {% if post.excerpt %}
-            <p>
-              {{ post.excerpt | strip_html | strip_newlines | truncatewords: 25, '...' }}
-              <small><a href="{{ post.url | prepend: site.baseurl }}">Continue lendo...</a></small>
-            </p>
-          {% endif %}
-        </li>
-
-      {% endfor %}
-    </ul>
-
+    <aside class="pagination" data-grid="justify">
+    
+      {% if paginator.previous_page %}
+        <a data-cell="shrink" href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous">Mais recentes</a>
+      {% else %}
+        <span data-cell="shrink" class="previous">Primeira página</span>
+      {% endif %}
+    
+      <span data-cell="shrink" class="page_number">{{ paginator.page }} de {{ paginator.total_pages }}</span>
+    
+      {% if paginator.next_page %}
+        <a data-cell="shrink" href="{{ paginator.next_page_path }}" class="next">Mais antigos</a>
+      {% else %}
+        <span data-cell="shrink" class="next">Última página</span>
+      {% endif %}
+    
+    </aside>
   </div>
+    
+  {% include sidebar.html %}
+
 </section>
-  
-<div class="wrapper">
-  <aside class="pagination" data-grid="justify">
-  
-    {% if paginator.previous_page %}
-      <a data-cell="shrink" href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous">Mais recentes</a>
-    {% else %}
-      <span data-cell="shrink" class="previous">Primeira página</span>
-    {% endif %}
-  
-    <span data-cell="shrink" class="page_number">{{ paginator.page }} de {{ paginator.total_pages }}</span>
-  
-    {% if paginator.next_page %}
-      <a data-cell="shrink" href="{{ paginator.next_page_path }}" class="next">Mais antigos</a>
-    {% else %}
-      <span data-cell="shrink" class="next">Última página</span>
-    {% endif %}
-  
-  </aside>
-</div>
-  
-{% include sidebar.html %}
