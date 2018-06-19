@@ -33,7 +33,7 @@
           <span class="icon" data-cell="shrink">
             {% include svg/arroba.svg %}
           </span>
-          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+          <span><a href="mailto:{{ site.email }}">{{ site.email }}</a></span>
         </p>
         {% endif %}
 
@@ -43,7 +43,7 @@
               <span class="icon" data-cell="shrink">
                 {% include svg/telefone.svg %}
               </span>     
-              <a href="tel:{{ tel.numero }}">{{ tel.rotulo }}</a>
+              <span><a href="tel:{{ tel.numero }}">{{ tel.rotulo }}</a></span>
             </li>
           {% endfor %}
         </ul>
