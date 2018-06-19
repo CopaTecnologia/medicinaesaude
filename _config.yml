@@ -43,7 +43,7 @@ defaults:
     image-position: 
     text-position: 
     classes: 
-description: Há 10 anos cuidado de você e sua família.
+description: Há 10 anos cuidando de você e sua família.
 baseurl: "/medicinaesaude"
 url: http://copatecnologia.com.br
 permalink: "/:pretty/"
@@ -66,8 +66,8 @@ endereco:
 - Praça da Independência, 11
 - Gonzaga | CEP 11060-100 | Santos - SP | Brasil
 telefones:
-- numero: "+551332890001"
-  rotulo: "(13) 3289-0001"
+- numero: "+5599670-7828"
+  rotulo: "(13) 99670-7828"
 email: atendimento@clinicamedicinaesaude.com.br
 social:
 - label: Facebook
