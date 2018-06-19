@@ -28,18 +28,13 @@
         transition-delay: .3s
         opacity: 0
 
-        header
-            margin-bottom: $spacing-unit / 2
-            padding-bottom: $spacing-unit / 2
-            & :first-child
-                margin-top: 0
-
-        footer
-            & :last-child
-                margin-bottom: 0
-
         +media-query($on-palm)
             padding: $spacing-unit / 2
+    
+    header, footer
+        > *
+            margin-top: $spacing-unit / 4
+            margin-bottom: $spacing-unit / 4
 
     &:target
         left: 0
