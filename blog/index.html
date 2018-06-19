@@ -21,11 +21,14 @@ layout: default
         {% endif %}
         ">{{ page.title }}</h1>
       </div>
+      
+      <div data-cell="shrink fill">
+        {% include search-form.html %}
+      </div>
+
     </div>
   </header>
-  
-  <div class="wrapper">{% include search-form.html %}</div>
-  
+
   <section class="page-content">
   
     <div class="wrapper">
