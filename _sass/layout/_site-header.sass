@@ -26,13 +26,23 @@
     .page-link
         display: inline-block
         color: $text-color
-        padding-left: 5px
-        padding-right: 5px
+        padding-left: 15px
+        padding-right: 15px
         &:hover, &:focus, &:active
             text-decoration: none
             background-color: $grey-color-light
 
-    @include media-query($on-laptop) 
+    +media-query($large-content-width)
+        .page-link
+            padding-left: 10px
+            padding-right: 10px
+
+    +media-query($content-width)
+        .page-link
+            padding-left: 5px
+            padding-right: 5px
+
+    +media-query($on-laptop) 
         position: absolute
         top: 9px
         right: $spacing-unit / 2
