@@ -66,7 +66,9 @@ endereco:
 - Praça da Independência, 11
 - Gonzaga | CEP 11060-100 | Santos - SP | Brasil
 telefones:
-- numero: "+5599670-7828"
+- numero: "+551332890001"
+  rotulo: "(13) 3289-0001"
+- numero: "+5513996707828"
   rotulo: "(13) 99670-7828"
 email: atendimento@clinicamedicinaesaude.com.br
 social:
