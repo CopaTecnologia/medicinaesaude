@@ -9,16 +9,18 @@ layout: default
     <div data-grid="center spacing">
   
       {% if site.blog.icon_image %}
-        <div data-cell="shrink">
+        <div data-cell="shrink fill">
           <img src="{{ site.baseurl }}{{ site.blog.icon_image }}" alt="ícone do blog" width="100" height="100">
         </div>
       {% endif %}
   
-      <h1 class="post-title" style="
-      {% if site.blog.title_color %}
-        color: site.blog.title_color
-      {% endif %}
-      ">{{ page.title }}</h1>
+      <div data-cell="fill">
+        <h1 class="post-title" style="
+        {% if site.blog.title_color %}
+          color: site.blog.title_color
+        {% endif %}
+        ">{{ page.title }}</h1>
+      </div>
     </div>
   </header>
   
