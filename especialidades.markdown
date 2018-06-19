@@ -4,7 +4,7 @@ date: 2018-03-24 16:07:00 -03:00
 position: 1
 icon_image: "/uploads/stethoscope.svg"
 title_color: "#7ac143"
-cover_image: "/uploads/stethoscope-1584222_1920.jpg"
+cover_image: "/uploads/especialidades.png"
 nav-title: Especialidades
 ---
 
