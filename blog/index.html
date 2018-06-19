@@ -17,7 +17,7 @@ layout: default
       <div data-cell="fill">
         <h1 class="post-title" style="
         {% if site.blog.title_color %}
-          color: site.blog.title_color
+          color: {{ site.blog.title_color }}
         {% endif %}
         ">{{ page.title }}</h1>
       </div>
