@@ -12,14 +12,45 @@
         .slide-content
             max-width: 30em
     &features
+        padding-left: $spacing-unit / 2
+        padding-right: $spacing-unit / 2
         article
+            padding: $spacing-unit / 2
             text-align: center
+            background: $background-color
+            border-radius: 5px
+            box-shadow: 0 2px 5px 0 rgba(#000, .2)
+
+            svg
+                max-width: 150px
+
             +media-greater($on-palm)
                 max-width: 16em
-        svg
-            max-width: 80%
-            +media-query($on-palm)
-                max-width: 60%
+                margin: 0 $spacing-unit / 2
+
+        +media-query($on-laptop)
+            .feature-title
+                font-size: 1.2em
+                font-weight: bold
+
+        +media-query($on-palm)
+            padding: $spacing-unit / 2
+            article
+                display: block
+                margin: $spacing-unit / 4 0
+            .feature-pic
+                float: left
+                width: 100px
+                padding-right: $spacing-unit / 2
+            .feature-content
+                display: block
+                margin: 0
+                padding: 0
+                overflow: hidden
+                text-align: left
+            .feature-title
+                margin-top: 0
+
     &about
         @extend %section-spacing
         line-height: 1.6
