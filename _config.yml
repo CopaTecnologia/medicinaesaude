@@ -70,6 +70,7 @@ telefones:
   rotulo: "(13) 3289-0001"
 - numero: "+5513996707828"
   rotulo: "(13) 99670-7828"
+  whatsapp: true
 email: atendimento@clinicamedicinaesaude.com.br
 social:
 - label: Facebook

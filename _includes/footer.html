@@ -61,11 +61,15 @@
         </p>
         {% endif %}
 
-        <ul class="seamless">
+        <ul class="seamless" data-grid="row wrap spacing">
           {% for tel in site.telefones %}
-            <li data-grid="row nowrap small-spacing">
+            <li data-cell="shrink" data-grid="row nowrap small-spacing">
               <span class="icon" data-cell="shrink">
+              {% if tel.whatsapp == true %}
+                {% include svg/whatsapp.svg %}
+              {% else %}
                 {% include svg/telefone.svg %}
+              {% endif %}
               </span>     
               <span><a href="tel:{{ tel.numero }}">{{ tel.rotulo }}</a></span>
             </li>
