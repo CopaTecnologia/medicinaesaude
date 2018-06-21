@@ -14,7 +14,9 @@
     &features
         padding-left: $spacing-unit / 2
         padding-right: $spacing-unit / 2
+
         .feature-item
+            position: relative
             text-align: center
 
             svg
@@ -23,7 +25,19 @@
             +media-greater($on-palm)
                 max-width: 16em
                 margin: 0 $spacing-unit / 2
-
+    
+        .feature-pic
+            padding: 0
+            height: 200px
+            img
+                width: 100%
+                height: 100%
+                object-fit: cover
+                object-position: center
+        .feature-content
+            line-height: 1.1
+            p
+                font-size: .9em
         .feature-title
             letter-spacing: 1px
 
@@ -37,17 +51,19 @@
             .feature-item
                 margin: $spacing-unit / 4 0
             .feature-pic
-                float: left
+                position: absolute
+                top: 0
+                left: 0
+                bottom: 0
                 width: 80px
-                padding-right: $spacing-unit / 2
+                height: 100%
             .feature-content
                 display: block
                 margin: 0
                 padding: 0
+                padding-left: 80 + $spacing-unit / 2
                 overflow: hidden
                 text-align: left
-            .feature-title
-                margin-top: 0
 
     &about
         @extend %section-spacing

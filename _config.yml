@@ -46,6 +46,11 @@ defaults:
     image-position: 
     text-position: 
     classes: 
+- scope:
+    path: ''
+    type: destaques
+  values:
+    image: 
 description: Há 10 anos cuidando de você e sua família.
 baseurl: "/medicinaesaude"
 url: http://copatecnologia.com.br

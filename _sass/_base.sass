@@ -202,9 +202,11 @@ pre
 
 .card
   display: inline-block
-  padding: $spacing-unit / 2
   background: $background-color
   border-radius: 5px
+  overflow: hidden
   box-shadow: 0 5px 25px 0 rgba(#000, .2)
-  +media-query($on-palm)
-    padding: $spacing-unit / 4
+  > *
+    padding: $spacing-unit / 2
+    +media-query($on-palm)
+      padding: $spacing-unit / 4
