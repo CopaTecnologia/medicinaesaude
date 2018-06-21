@@ -1,3 +1,27 @@
+{% assign avail_icons = "
+  facebook
+  linkedin
+  twitter
+  google
+  instagram
+  youtube
+  pinterest
+" | split: ' ' %}
+
+<p class="footer-social" data-text="center">
+
+  {% for rede in site.social %}
+    {% if avail_icons contains rede.icone %}
+
+    <a href="{{ rede.link }}" title="{{ rede.label }}" data-btn="circ" class="icon">
+      {% include svg/{{ rede.icone }}.svg %}
+    </a>
+
+    {% endif %}
+  {% endfor %}
+
+</p>
+
 <footer class="site-footer">
 
   <div class="wrapper">
@@ -72,20 +96,15 @@
           </li>
         </ul>
 
-        <p class="social">
-          {% for rede in site.social %}
-            <a href="{{ rede.link }}" title="{{ rede.label }}" data-btn="circ" class="icon">
-              {% include svg/{{ rede.icone }}.svg %}
-            </a>
-          {% endfor %}
-        </p>
-
       </div>
 
     </div>
 
   </div>
 
+</footer>
+
+<div class="hero footer-copy">
   <p data-text="center sm">
     <span data-text="nowrap">Copyright © 2018</span> - 
     <span data-text="nowrap">Clínica Medicina e Saúde</span> 
@@ -94,5 +113,4 @@
       <a href="https://copatecnologia.com.br" target="_blank">Copa Tecnologia</a>
     </span>
   </p>
-
-</footer>
+</div>

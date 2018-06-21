@@ -75,12 +75,21 @@ social:
 - label: Facebook
   link: http://facebook.com/medicinaesaude
   icone: facebook
-- label: Linkedin
-  link: http://linkedin.com/medicinaesaude
-  icone: linkedin
+- label: Instagram
+  link: http://instagram.com/medicinaesaude
+  icone: instagram
+- label: Pinterest
+  link: http://pinterest.com/medicinaesaude
+  icone: pinterest
 - label: Twitter
   link: http://twitter.com/medicinaesaude
   icone: twitter
+- label: Linkedin
+  link: http://linkedin.com/medicinaesaude
+  icone: linkedin
+- label: Youtube
+  link: http://youtube.com/medicinaesaude
+  icone: youtube
 disqus-name: medicina-e-saude
 blog:
   icon_image: "/uploads/rss.svg"
