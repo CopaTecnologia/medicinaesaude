@@ -100,6 +100,7 @@ social:
   link: http://youtube.com/medicinaesaude
   icone: youtube
 disqus-name: medicina-e-saude
+google-analytics-id: 
 blog:
   icon_image: "/uploads/rss.svg"
   title_color: "#7ac143"
