@@ -14,33 +14,31 @@
     &features
         padding-left: $spacing-unit / 2
         padding-right: $spacing-unit / 2
-        article
-            padding: $spacing-unit / 2
+        .feature-item
             text-align: center
-            background: $background-color
-            border-radius: 5px
-            box-shadow: 0 2px 5px 0 rgba(#000, .2)
 
             svg
-                max-width: 150px
+                max-width: 120px
 
             +media-greater($on-palm)
                 max-width: 16em
                 margin: 0 $spacing-unit / 2
 
+        .feature-title
+            letter-spacing: 1px
+
         +media-query($on-laptop)
             .feature-title
-                font-size: 1.2em
+                font-size: 1em
                 font-weight: bold
 
         +media-query($on-palm)
             padding: $spacing-unit / 2
-            article
-                display: block
+            .feature-item
                 margin: $spacing-unit / 4 0
             .feature-pic
                 float: left
-                width: 100px
+                width: 80px
                 padding-right: $spacing-unit / 2
             .feature-content
                 display: block
