@@ -1,6 +1,13 @@
 ---
 title: 'Dislexia: Genética e Hereditária'
 date: 2018-07-03 12:13:00 -03:00
+categories:
+- Fonoaudiologia
+- Medicina
+tags:
+- déficite
+- dislexia
+- distúrbios genéticos
 cover_image: "/uploads/Speech%20Therapy.jpeg"
 ---
 
