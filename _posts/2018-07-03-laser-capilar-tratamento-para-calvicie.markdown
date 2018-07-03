@@ -1,7 +1,7 @@
 ---
 title: 'Laser capilar: tratamento para calvície'
 date: 2018-07-03 11:53:00 -03:00
-cover_image: "/uploads/calvicie.png"
+cover_image: "/uploads/calvicie_trat.png"
 ---
 
 Você já ouviu falar de tratamento para calvície com laser capilar? Trata-se de um procedimento moderno e com resultados satisfatórios.
