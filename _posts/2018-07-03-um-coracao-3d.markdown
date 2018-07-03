@@ -1,6 +1,14 @@
 ---
 title: Um coração 3D
 date: 2018-07-03 12:07:00 -03:00
+categories:
+- Cardiologia
+tags:
+- transplante
+- biomaterial
+- coração transplantado
+- cardiologia
+- medicina
 cover_image: "/uploads/heart3d.jpg"
 ---
 
