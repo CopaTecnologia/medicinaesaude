@@ -24,7 +24,7 @@
 
             +media-greater($on-palm)
                 max-width: 16em
-                margin: 0 $spacing-unit / 2
+                margin: $spacing-unit / 2
     
         .feature-pic
             padding: 0
@@ -41,15 +41,13 @@
         .feature-title
             letter-spacing: 1px
 
-        +media-query($on-laptop)
-            .feature-title
-                font-size: 1em
-                font-weight: bold
-
         +media-query($on-palm)
             padding: $spacing-unit / 2
             .feature-item
                 margin: $spacing-unit / 4 0
+            .feature-title
+                font-size: 1em
+                font-weight: bold
             .feature-pic
                 position: absolute
                 top: 0
