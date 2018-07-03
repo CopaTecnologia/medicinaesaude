@@ -1,6 +1,12 @@
 ---
 title: 'Laser capilar: tratamento para calvície'
 date: 2018-07-03 11:53:00 -03:00
+categories:
+- Dermatologia
+tags:
+- Laser capilar
+- Calvicie
+- Tratamento para calvicie
 cover_image: "/uploads/calvicie_trat.png"
 ---
 
