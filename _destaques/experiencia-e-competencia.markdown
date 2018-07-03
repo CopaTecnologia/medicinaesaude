@@ -1,7 +1,7 @@
 ---
 title: Experiência e Competência
 date: 2018-06-21 00:18:00 -03:00
-position: 3
+position: 1
 image: "/uploads/quemsomos.png"
 ---
 
