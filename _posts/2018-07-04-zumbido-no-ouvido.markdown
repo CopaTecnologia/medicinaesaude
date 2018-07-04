@@ -19,4 +19,4 @@ Esses ruídos podem aparecer por **vários motivos, os principais são**:
 * Raramente podem ser indícios de outras doenças, como a Doença de Ménière
  
 Ao se sentir desconfortável, procure ajuda médica. Se possível, fique atento aos momentos em que esses zumbidos aparecem para ajudar no diagnóstico.
-Leia também sobre **como manter o seu ouvido limpo sem prejudicar a sua audição**[](https://copatecnologia.com.br/medicinaesaude/blog/2018/07/04/o-ouvido-entupiu/).
+Leia também sobre **[como manter o seu ouvido limpo sem prejudicar a sua audição](https://copatecnologia.com.br/medicinaesaude/blog/2018/07/04/o-ouvido-entupiu/)**.
