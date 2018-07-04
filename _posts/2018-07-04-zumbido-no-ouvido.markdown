@@ -5,7 +5,7 @@ categories:
 - Doenças
 tags:
 - zumbido no ouvido
-cover_image: "/uploads/zumbido.jpg"
+cover_image: "/uploads/zumbidoouvido.jpg"
 ---
 
 Muitas pessoas já sentiram um zumbido no ouvido e isso é muito comum, mas por que ele ocorre?
