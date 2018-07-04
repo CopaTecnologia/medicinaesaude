@@ -5,4 +5,4 @@ position: 0
 image: "/uploads/agendamento.png"
 ---
 
-[### MARQUE SUA CONSULTA DE MODO FÁCIL](#contato)
+[Marque sua consulta de modo fácil](#contato)
