@@ -4,7 +4,7 @@ date: 2018-03-24 16:10:00 -03:00
 position: 3
 icon_image: "/uploads/hand-shake.svg"
 title_color: "#7ac143"
-cover_image: "/uploads/convenios.png"
+cover_image: "/uploads/planos.jpg"
 nav-title: Convênios
 ---
 
