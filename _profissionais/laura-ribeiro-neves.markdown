@@ -2,7 +2,7 @@
 title: LAURA RIBEIRO NEVES
 date: 2018-06-11 14:13:00 -03:00
 position: 2
-image: "/uploads/therapist.jpg"
+image: "/uploads/therapist1.jpg"
 ---
 
 * Psicóloga Clínica
