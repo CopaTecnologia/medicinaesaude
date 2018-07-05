@@ -13,18 +13,18 @@ function displaySearchResults(results, store) {
     }
     const resultsArr = results.map((result) => {
         const item = store[result.ref];
-        const img = item.img ? '<div data-cell="1of4">' + item.img + '</div>' : '';
+        const img = item.img ? '<div data-cell="1of4"><img src="' + item.img + '"></div>' : '';
         return `
-        <article class="card">
-            <div data-grid="center spacing">
+        <article class="card search-result">
+            <div data-grid="spacing">
                 ${img}
                 <div data-cell="2of3">
-                    <h4>
-                        <a href="${window.baseurl}${item.url}" class="post-title">${item.title}</a>
+                    <h4 class="search-result-title">
+                        <a href="${item.url}">${item.title}</a>
                     </h4>
-                    <p>
+                    <p class="search-result-description">
                         ${item.content.substring(0, 150)}... 
-                        <a href="${window.baseurl}${item.url}" data-cell="shrink">Saiba mais</a>
+                        <a href="${item.url}" data-cell="shrink">Saiba mais</a>
                     </p>
                 </div>
             </div>
