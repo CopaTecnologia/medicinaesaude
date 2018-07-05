@@ -1,2 +1,8 @@
 {% assign href = site.url | append: site.baseurl | append: page.url %}
-<a class="{{ include.class }}" href="https://plus.google.com/share?url={{ href | cgi_escape }}" target="_blank" onclick="ga('send', 'event', 'Compartilhar', 'Google Plus', '{{ page.url | append: ' ' | append: include.position }}');" title="Compartilhar no Google Plus">{% include svg/google.svg %}</a>
+<a class="icon {{ include.class }}" 
+    href="https://plus.google.com/share?url={{ href | cgi_escape }}" target="_blank" 
+    title="Compartilhar no Google Plus"
+    data-ga-share="Google Plus|{{ include.position }}" 
+>
+    {% include svg/google.svg %}
+</a>

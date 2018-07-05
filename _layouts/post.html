@@ -18,9 +18,23 @@ layout: default
     </p>
   </header>
 
+  <div class="wrapper">
+    <p data-text="right">
+      Compartilhe este post:
+      {% include share/widget.html position = 'Início do post' %}
+    </p>
+  </div>
+
   <div class="post-content" itemprop="articleBody">
     {% assign uploads_src = ' src="' | append: site.baseurl | append: '/uploads' %}
     {{ content | replace: ' src="/uploads', uploads_src }}
+  </div>
+
+  <div class="wrapper">
+    <p data-text="right">
+      Compartilhe este post:
+      {% include share/widget.html position = 'Final do post' %}
+    </p>
   </div>
 
 </article>

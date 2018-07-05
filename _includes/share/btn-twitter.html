@@ -4,4 +4,10 @@
 {% else %}
 	{% assign title = site.title %}
 {% endif %}
-<a class="{{ include.class }}" target="_blank" href="https://twitter.com/intent/tweet?text={{ title | append: '' | cgi_escape }}&url={{ href | cgi_escape }}" onclick="ga('send', 'event', 'Compartilhar', 'Twitter', '{{ page.url | append: ' ' | append: include.position }}');" title="Compartilhar no Twitter">{% include svg/twitter.svg %}</a>
+<a class="icon {{ include.class }}" 
+	href="https://twitter.com/intent/tweet?text={{ title | append: '' | cgi_escape }}&url={{ href | cgi_escape }}" target="_blank" 
+	title="Compartilhar no Twitter"
+	data-ga-share="Twitter|{{ include.position }}" 
+>
+	{% include svg/twitter.svg %}
+</a>
