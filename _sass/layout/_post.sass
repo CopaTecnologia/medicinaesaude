@@ -2,8 +2,10 @@
 .post-list 
     margin-left: 0
     list-style: none
-    >li 
+    .post-item
         margin-bottom: $spacing-unit
+        +media-greater($on-palm)
+            border-bottom: 1px solid $grey-color-light
 
 .post-meta 
     font-size: $small-font-size

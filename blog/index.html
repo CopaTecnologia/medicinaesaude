@@ -35,17 +35,24 @@ layout: default
       <ul class="seamless post-list">
         {% for post in paginator.posts %}
   
-          <li>
-            <h2>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </h2>
-            <small class="post-meta">{{ post.date | date: "%-d/%m/%Y" }}</small>
-            {% if post.excerpt %}
-              <p>
-                {{ post.excerpt | strip_html | strip_newlines | truncatewords: 25, '...' }}
-                <small><a href="{{ post.url | prepend: site.baseurl }}">Continue lendo...</a></small>
-              </p>
+          <li class="post-item" data-grid="end spacing">
+            {% if post.cover_image %}
+              <div data-cell="1of2{% cycle ' order-1', '' %} fill">
+                <img src="{{ site.baseurl }}{{ post.cover_image }}" alt="{{ post.title }}">
+              </div>
             {% endif %}
+            <div data-cell="1of2 fill">
+              <h2>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              </h2>
+              <small class="post-meta">{{ post.date | date: "%-d/%m/%Y" }}</small>
+              {% if post.excerpt %}
+                <p>
+                  {{ post.excerpt | strip_html | strip_newlines | truncatewords: 25, '...' }}
+                  <small><a href="{{ post.url | prepend: site.baseurl }}">Continue lendo...</a></small>
+                </p>
+              {% endif %}
+            </div>
           </li>
   
         {% endfor %}
