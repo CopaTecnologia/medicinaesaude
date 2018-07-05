@@ -66,7 +66,7 @@ layout: default
       <span data-cell="shrink" class="page_number">{{ paginator.page }} de {{ paginator.total_pages }}</span>
     
       {% if paginator.next_page %}
-        <a data-cell="shrink" href="{{ paginator.next_page_path }}" class="next">Mais antigos</a>
+        <a data-cell="shrink" href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next">Mais antigos</a>
       {% else %}
         <span data-cell="shrink" class="next">Última página</span>
       {% endif %}
