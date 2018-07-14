@@ -53,7 +53,7 @@ defaults:
     image: 
 description: Há 10 anos cuidando de você e sua família.
 baseurl: "/medicinaesaude"
-url: copatecnologia.com.br
+url: https://copatecnologia.com.br
 permalink: "/:pretty/"
 markdown: kramdown
 plugins:
