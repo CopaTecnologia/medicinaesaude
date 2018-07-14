@@ -19,7 +19,23 @@ layout: compress
 
     {% include contato.html %}
 
+    <script>
+      Array.prototype.forEach.call(
+        document.querySelectorAll('.sliding-box'),
+        function(box) { box.classList.add('below-screen') }
+      );
+    </script>
+
     <script src="{{ site.baseurl }}/js/main.js?{{ 'now' | date: '%s' }}"></script>
+
+    <script>
+      Array.prototype.forEach.call(
+        document.querySelectorAll('.sliding-box'),
+        function(box) { 
+          setTimeout(function() { box.classList.add('sliding-box-on') } , 1)
+        }
+      );
+    </script>
 
   </body>
 

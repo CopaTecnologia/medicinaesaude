@@ -6,7 +6,7 @@
     <ul class="seamless post-list">
         {% for post in site.posts limit: 3 %}
 
-        <li class="post-item" data-grid="end spacing">
+        <li class="post-item sliding-box" data-grid="end spacing">
             {% if post.cover_image %}
             <div data-cell="1of2{% cycle ' order-1', '' %} fill">
                 <img src="{{ site.baseurl }}{{ post.cover_image }}" alt="{{ post.title }}">

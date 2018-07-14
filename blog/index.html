@@ -35,7 +35,7 @@ layout: default
       <ul class="seamless post-list">
         {% for post in paginator.posts %}
   
-          <li class="post-item" data-grid="end spacing">
+          <li class="post-item sliding-box" data-grid="end spacing">
             {% if post.cover_image %}
               <div data-cell="1of2{% cycle ' order-1', '' %} fill">
                 <img src="{{ site.baseurl }}{{ post.cover_image }}" alt="{{ post.title }}">

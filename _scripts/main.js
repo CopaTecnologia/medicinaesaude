@@ -40,3 +40,28 @@ Array.prototype.forEach.call(
         parent.addEventListener('mouseout', () => slideshow.play());
     }
 );
+
+const slidingBoxes = document.querySelectorAll('.sliding-box');
+if (slidingBoxes.length) {
+    window.addEventListener('scroll', setSlidingClasses);
+    window.addEventListener('resize', setSlidingClasses);
+    window.addEventListener('load', setSlidingClasses);
+    function setSlidingClasses() {
+        Array.prototype.forEach.call(slidingBoxes, item => {
+            const vBegin = item.offsetTop - window.innerHeight * .8;
+            const vEnd = item.offsetTop + item.offsetHeight * .8;
+            if (scrollY < vBegin) {
+                item.classList.add('below-screen');
+                item.classList.remove('above-screen');
+            }
+            else if (scrollY > vEnd) {
+                item.classList.remove('below-screen');
+                item.classList.add('above-screen');
+            }
+            else {
+                item.classList.remove('below-screen');
+                item.classList.remove('above-screen');
+            };
+        });
+    }
+};
