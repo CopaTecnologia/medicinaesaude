@@ -1,6 +1,9 @@
 import SlideShow from './libs/slideshow';
 import slidingBoxes from './libs/slidingBoxes';
-import {requestAnimFrame} from './libs/util';
+import bindGoogleAnalyticsEvents from './libs/bindGoogleAnalyticsEvents';
+import {
+    requestAnimFrame
+} from './libs/util';
 
 document.body.addEventListener('touchstart', () => {});
 
@@ -11,8 +14,12 @@ if (parallaxContainer) {
     const maxScrollOffset = parallaxContainer.offsetTop + parallaxContainer.offsetHeight;
 
     if (parallaxContent) {
-        window.addEventListener('gesturechange', handleScroll, {passive: true});
-        window.addEventListener('touchmove', handleScroll, {passive: true});
+        window.addEventListener('gesturechange', handleScroll, {
+            passive: true
+        });
+        window.addEventListener('touchmove', handleScroll, {
+            passive: true
+        });
         window.addEventListener('scroll', handleScroll);
     }
 
@@ -30,3 +37,5 @@ if (parallaxContainer) {
 slidingBoxes('.sliding-box');
 
 SlideShow.initAll('.slideshow');
+
+bindGoogleAnalyticsEvents();

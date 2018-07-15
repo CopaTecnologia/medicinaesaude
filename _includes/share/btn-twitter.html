@@ -7,7 +7,8 @@
 <a class="icon {{ include.class }}" 
 	href="https://twitter.com/intent/tweet?text={{ title | append: '' | cgi_escape }}&url={{ href | cgi_escape }}" target="_blank" 
 	title="Compartilhar no Twitter"
-	data-ga-share="Twitter|{{ include.position }}" 
+	data-ga-event="click"
+	data-ga-category="Compartilhar ({{ include.position }})"
 >
 	{% include svg/twitter.svg %}
 </a>

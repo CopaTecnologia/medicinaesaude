@@ -2,7 +2,8 @@
 <a class="icon {{ include.class }}" target="_blank" 
     href="https://www.facebook.com/sharer/sharer.php?u={{ href | cgi_escape }}&amp;src=sdkpreparse" 
     title="Compartilhar no Facebook"
-    data-ga-share="Facebook|{{ include.position }}" 
+    data-ga-event="click"
+    data-ga-category="Compartilhar ({{ include.position }})"
 >
     {% include svg/facebook.svg %}
 </a>

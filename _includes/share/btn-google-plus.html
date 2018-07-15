@@ -2,7 +2,8 @@
 <a class="icon {{ include.class }}" 
     href="https://plus.google.com/share?url={{ href | cgi_escape }}" target="_blank" 
     title="Compartilhar no Google Plus"
-    data-ga-share="Google Plus|{{ include.position }}" 
+    data-ga-event="click"
+    data-ga-category="Compartilhar ({{ include.position }})"
 >
     {% include svg/google.svg %}
 </a>
