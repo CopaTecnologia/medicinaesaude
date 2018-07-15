@@ -7,6 +7,24 @@ export default class SlideShow {
         this.render(start);
     }
 
+    static initAll(parents) {
+        if (typeof parents === 'string') parents = document.querySelectorAll(parents);
+        return Array.prototype.map.call(parents, this.create);
+    }
+
+    static create(parent) {
+        const slideshow = new SlideShow({
+            parent,
+            children: parent.getAttribute('data-children') || '.slide',
+            start: parent.getAttribute('data-start') || 0,
+            interval: parent.getAttribute('data-interval') || 3000
+        });
+        slideshow.play();
+        parent.addEventListener('mouseover', () => slideshow.pause());
+        parent.addEventListener('mouseout', () => slideshow.play());
+        return slideshow;
+    }
+
     render(i) {
         i = this.setIndex(i);
         const current = this.children[i];

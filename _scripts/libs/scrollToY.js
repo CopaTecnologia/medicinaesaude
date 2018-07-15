@@ -5,7 +5,7 @@ export default function scrollToY(scrollTargetY, speed, easing, fn) {
     // speed: time in pixels per second
     // easing: easing equation to use
 
-    var scrollY = window.scrollY || document.documentElement.scrollTop,
+    var scrollY = window.pageYOffset || document.documentElement.scrollTop,
         scrollTargetY = scrollTargetY || 0,
         speed = speed || 2000,
         easing = easing || 'easeOutSine',
