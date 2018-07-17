@@ -1,5 +1,6 @@
 import SlideShow from './libs/slideshow';
 import slidingBoxes from './libs/slidingBoxes';
+import loadGoogleMaps from './libs/loadGoogleMaps';
 import bindGoogleAnalyticsEvents from './libs/bindGoogleAnalyticsEvents';
 import {
     requestAnimFrame
@@ -37,5 +38,7 @@ if (parallaxContainer) {
 slidingBoxes('.sliding-box');
 
 SlideShow.initAll('.slideshow');
+
+loadGoogleMaps();
 
 bindGoogleAnalyticsEvents();
