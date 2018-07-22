@@ -28,6 +28,12 @@ layout: default
   <div class="post-content" itemprop="articleBody">
     {% assign uploads_src = ' src="' | append: site.baseurl | append: '/uploads' %}
     {{ content | replace: ' src="/uploads', uploads_src }}
+
+    {% for v in page.videos %}
+      <div class="page-content wrapper">
+        {% include embed-youtube.html id=v %}
+      </div>
+    {% endfor %}
   </div>
 
   <div class="wrapper">
