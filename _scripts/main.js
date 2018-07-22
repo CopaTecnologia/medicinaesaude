@@ -14,9 +14,11 @@ const sliderOptions = {
             const src = image.style.backgroundImage.match(/\((.*?)\)/)[1].replace(/('|")/g,'');
             if (!src) return;
             const img = new Image();
-            img.onload = slider.play;
-            img.src = src;
+            img.onload = function() {
+                slider.play();
+            };
             slider.pause();
+            img.src = src;
         }
     }
 };
