@@ -25,6 +25,7 @@ defaults:
     layout: post
     permalink: "/blog/:year/:month/:day/:title/"
     cover_image: 
+    videos: []
 - scope:
     path: ''
     type: pages
