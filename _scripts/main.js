@@ -6,21 +6,25 @@ import parallax from './libs/parallax';
 
 document.body.addEventListener('touchstart', () => {});
 
-const sliderOptions = {
-    autoplay: {
-        'wait-img-load': function(slider) {
-            const image = slider.children[0].querySelector('.slide-image');
-            if (!image) return;
-            const src = image.style.backgroundImage.match(/\((.*?)\)/)[1].replace(/('|")/g,'');
+const sliderAttributes = {
+    'data-autoplay': {
+        'beforeall': function () {
+            this.play();
+            this.parent.addEventListener('mouseover', () => this.pause());
+            this.parent.addEventListener('mouseout', () => this.play());
+        },
+        'wait-img-load': function () {
+            const image = this.children[0].querySelector('.slide-image');
+            if (!image || !image.style.backgroundImage) return;
+            const src = image.style.backgroundImage.match(/\((.*?)\)/)[1].replace(/('|")/g, '');
             if (!src) return;
             const img = new Image();
-            img.onload = function() {
-                slider.play();
-            };
-            slider.pause();
+            img.onload = () => this.play();
+            img.onerror = () => this.play();
+            this.pause();
             img.src = src;
-        }
-    }
+        },
+    },
 };
 
 Array.prototype.map.call(
@@ -32,17 +36,10 @@ Array.prototype.map.call(
             start: parent.getAttribute('data-start') || 0,
             interval: parent.getAttribute('data-interval') || 3000
         });
-        slideshow.setAttr('data-autoplay', options => {
-            slideshow.play();
-            parent.addEventListener('mouseover', () => slideshow.pause());
-            parent.addEventListener('mouseout', () => slideshow.play());
-            if (options.length) options.forEach(o => {
-                const callbacks = sliderOptions['autoplay'];
-                const fn = callbacks && callbacks[o];
-                if (!(fn instanceof Function)) console.log('slider[autoplay]:', o, typeof fn, fn);
-                else fn(slideshow);
-            });
-        });
+        for (const key in sliderAttributes) {
+            const value = sliderAttributes[key];
+            slideshow.setAttr(key, value);
+        }
         return slideshow;
     }
 );

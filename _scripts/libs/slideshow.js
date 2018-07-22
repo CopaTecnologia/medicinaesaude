@@ -39,12 +39,25 @@ export default class SlideShow {
         return this.index;
     }
 
-    setAttr(attr, fn) {
-        if (!attr || !(fn instanceof Function)) return;
+    setAttr(attr, callbacks) {
+        if (!attr || !callbacks) return;
         const isSet = this.parent && this.parent.hasAttribute(attr);
         if (!isSet) return;
-        const options = this.parent.getAttribute(attr);
-        fn.call(this, options.split(' ').filter(s => s.trim()).map(s => s.trim()));
+        const options = this.parent
+            .getAttribute(attr)
+            .split(' ')
+            .filter(s => s.trim())
+            .map(s => s.trim());
+        if (callbacks instanceof Function) return callbacks.call(this, options);
+        const beforeFn = callbacks['beforeall'];
+        if (beforeFn instanceof Function) beforeFn.call(this);
+        if (options.length) options.forEach(o => {
+            const fn = callbacks[o];
+            if (!(fn instanceof Function)) console.log(`slider[${attr}]:`, o, typeof fn, fn);
+            else fn.call(this);
+        });
+        const afterFn = callbacks['afterall'];
+        if (afterFn instanceof Function) afterFn.call(this);
     }
 
     goTo(index) {
@@ -57,6 +70,10 @@ export default class SlideShow {
 
     goNext() {
         this.render(this.index + 1);
+    }
+
+    get isPlaying() {
+        return !!this.timeoutId;
     }
 
     play() {
