@@ -49,11 +49,6 @@
         top: 9px
         right: $spacing-unit / 2
         text-align: right
-        background-color: $background-color
-        border-radius: 5px
-        overflow: hidden
-        &:hover
-            box-shadow: -25px 25px 30px -30px rgba(black, .3)
         .menu-icon
             display: block
             float: right
@@ -75,9 +70,38 @@
         &:hover .trigger 
             display: block
             padding-top: 11px
-            box-shadow: -5px 5px 15px -5px rgba(black, .1)
+            perspective: 1000px
+
+            $page-link-anim-duration: .15s
+
+            .page-link
+                background-color: $background-color
+                box-shadow: -5px 5px 15px -5px rgba(black, .1)
+                -webkit-animation: come-up $page-link-anim-duration ease-in-out forwards
+                animation: come-up $page-link-anim-duration ease-in-out forwards
+
+                @for $i from 1 through 10
+                    &:nth-of-type(#{$i})
+                        -webkit-animation-duration: $page-link-anim-duration * $i
+                        animation-duration: $page-link-anim-duration * $i
 
         .page-link
             display: block
             margin: 0
             padding: 0 $spacing-unit
+
+@-webkit-keyframes come-up
+    0%
+        -webkit-transform: translateY(100%) rotateY(75deg)
+        opacity: 0
+    100%
+        -webkit-transform: translateY(0) rotateY(0)
+        opacity: 1
+
+@keyframes come-up
+    0%
+        transform: translateY(100%) rotateY(75deg)
+        opacity: 0
+    100%
+        transform: translateY(0) rotateY(0)
+        opacity: 1
