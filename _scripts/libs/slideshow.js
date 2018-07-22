@@ -7,24 +7,6 @@ export default class SlideShow {
         this.render(start);
     }
 
-    static initAll(parents) {
-        if (typeof parents === 'string') parents = document.querySelectorAll(parents);
-        return Array.prototype.map.call(parents, this.create);
-    }
-
-    static create(parent) {
-        const slideshow = new SlideShow({
-            parent,
-            children: parent.getAttribute('data-children') || '.slide',
-            start: parent.getAttribute('data-start') || 0,
-            interval: parent.getAttribute('data-interval') || 3000
-        });
-        slideshow.play();
-        parent.addEventListener('mouseover', () => slideshow.pause());
-        parent.addEventListener('mouseout', () => slideshow.play());
-        return slideshow;
-    }
-
     render(i) {
         i = this.setIndex(i);
         const current = this.children[i];
@@ -55,6 +37,14 @@ export default class SlideShow {
             i < 0 ? this.children.length - 1 :
             i;
         return this.index;
+    }
+
+    setAttr(attr, fn) {
+        if (!attr || !(fn instanceof Function)) return;
+        const isSet = this.parent && this.parent.hasAttribute(attr);
+        if (!isSet) return;
+        const options = this.parent.getAttribute(attr);
+        fn.call(this, options.split(' ').filter(s => s.trim()).map(s => s.trim()));
     }
 
     goTo(index) {
