@@ -2,7 +2,7 @@
 title: Bem vindo!
 date: 2018-01-07 10:07:00 -02:00
 position: 0
-image: "/uploads/erro"
+image: "/uploads/piron-guillaume-367208.jpg"
 text-position: right
 classes: light
 ---
