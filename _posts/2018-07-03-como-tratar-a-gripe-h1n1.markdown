@@ -13,6 +13,7 @@ cover_image: "/uploads/gripe.jpg"
 videos:
 - https://www.youtube.com/watch?v=ErXlMnC6x2I
 - https://www.youtube.com/watch?v=Trs3eivs9i8
+- https://youtu.be/gQTIC0vyBPo
 ---
 
 A gripe H1N1, também conhecida por gripe suína, é transmitida pelo vírus H1N1. Apesar de ser parecida com a gripe normal, os sintomas costumam ser mais intensos, persistirem por mais tempo e surgirem repentinamente. 
