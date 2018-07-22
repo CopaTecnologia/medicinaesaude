@@ -6,4 +6,5 @@ image: "/uploads/abstract-blur-hospital-and-clinic-interior_1134928.jpg"
 classes: light
 ---
 
-[Saiba mais]({{ site.baseurl }}/sobre)
+ <a href="{{ site.baseurl }}/sobre" data-btn>Sobre nós</a>
+ <a href="#contato" data-text="nowrap" data-btn>Agendamento</a>

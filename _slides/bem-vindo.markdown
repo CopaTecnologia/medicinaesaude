@@ -8,6 +8,6 @@ text-position: right
 classes: dark
 ---
 
-Seja bem-vindo à nossa clínica. Conheça melhor as
+Seja bem-vindo à nossa clínica. Conheça as
 <a href="{{ site.baseurl }}/especialidades" data-text="nowrap">nossas especialidades</a> ou
 <a href="#contato" data-text="nowrap">agende uma consulta</a>.
