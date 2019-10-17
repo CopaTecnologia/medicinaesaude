@@ -1,7 +1,9 @@
 _site
+.cache
 .sass-cache
+.jekyll-cache
 .jekyll-metadata
-.vscode
-desktop.ini
+vendor
 npm-debug.log
 node_modules
+js/main.js.map

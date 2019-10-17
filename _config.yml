@@ -59,6 +59,7 @@ permalink: "/:pretty/"
 markdown: kramdown
 plugins:
 - jekyll-paginate
+- jekyll-feed
 paginate: 8
 paginate_path: "/blog/:num/"
 sass:
