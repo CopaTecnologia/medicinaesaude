@@ -10,6 +10,16 @@
         "$jekyll-warning-watch",
         "$jekyll-error-watch"
       ]
+    },
+    {
+      "type": "npm",
+      "script": "webpack",
+      "problemMatcher": []
+    },
+    {
+      "type": "npm",
+      "script": "serve",
+      "problemMatcher": []
     }
   ]
 }
