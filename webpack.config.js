@@ -6,10 +6,13 @@ const path = require('path');
 
 const config = {
   mode: 'production',
-  entry: './_scripts/main.js',
+  entry: {
+    main: './_scripts/main.js',
+    search: './_scripts/search.js'
+  },
   output: {
     path: path.resolve(__dirname, 'js'),
-    filename: 'main.js'
+    filename: '[name].js'
   },
   module: {
     rules: [
